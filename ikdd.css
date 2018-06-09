@@ -1,0 +1,195 @@
+.navbar-brand {
+  font-weight: bold;  
+}
+
+.jumbotron {
+  background-image:url('images/hero-bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px #222;
+  
+ 
+}
+  
+.jumbotron-heading {
+  font-size:110px;
+
+}
+
+.ik-address {
+  margin-top: 15px;
+  
+}
+.ik-address > span {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-shadow:1px 1px #aaa;
+  color: #222;
+}
+
+.lead {
+  font-size:1.6em;
+}
+
+.jumbotron .btn {
+  text-shadow: none;
+}
+
+.navbar {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  padding: 10px;  
+}
+
+nav {
+  background-color: white;
+  opacity:0.9;
+}
+
+.nav-link.active {
+  color: #d15608;
+  border-bottom:2px solid #d15608;
+}
+
+#navbarTogglerDemo01 .nav-link {
+  text-transform: uppercase;
+  font-size:0.9em;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+#about {
+  color: #111;
+}
+
+#about img {
+ width: 90%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 25px;
+}
+
+.leading-title {
+  color:#d15608;
+}
+
+.talk-abstract .leading-title {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding-bottom:10px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.card {
+}
+.card-img-top {
+  display: block;
+  width:50%;
+  margin: 20px auto 5px auto;
+}
+
+.card-body h6 {
+   font-weight: bold;
+   text-align :center;
+}
+
+.card-body p {
+  text-align :center;
+  font-size:0.9em;
+  
+}
+
+.card-body .card-title {
+  color: #0162cb;
+  text-transform: uppercase;
+}
+
+
+.list-group-item span {
+  padding-right: 15px;
+  
+}
+.ik-time {
+  color: #777;
+  font-size:0.95em;
+  text-transform: uppercase;
+}
+
+.ik-talk-topic {
+  font-weight: bold;
+  color: #111;
+  font-size: 1.2em;
+}
+
+.ik-talk-speaker {
+  color :#222;
+}
+
+.talk-abstract {
+  padding: 2em ;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+  color: #111;
+  
+}
+
+@media (max-width: 768px) {
+  .list-group-item span {
+    display:block;
+  
+  }
+
+  span.ik-abstract-toggle {
+    width: 26%;
+    float:right;
+  }
+
+.jumbotron-heading {
+  font-size:80px;
+}
+}
+
+
+span.ik-abstract-toggle  {
+  padding: 2px 5px 2px 15px;
+  color: #111;
+  background-color: #fffe99;
+}
+
+footer {
+  margin-top:50px;
+  background-color: #1f2125;
+  color :white;
+  font-size: 0.8em;
+}
+
+footer .affiliation {
+  color: #999;
+}
+
+footer h6 {
+  color: #ccc;
+  font-weight : bold; 
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  color: #bbb;
+}
+
+footer a{
+  color: white;
+  text-decoration:none;
+  
+}
+
