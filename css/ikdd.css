@@ -2,6 +2,16 @@
   font-weight: bold;  
 }
 
+.muted-link, .muted-link:hover {
+  text-decoration: none;
+  outline:none;
+}
+
+.subheading {
+  font-size:0.9em;
+}
+
+
 .jumbotron {
   background-image:url('../images/london.jpg');
   background-position: center center;
@@ -106,6 +116,18 @@ nav {
 .card-body .card-title {
   color: #0162cb;
   text-transform: uppercase;
+}
+
+.card-body .card-subtitle {
+  font-weight:600;
+  color:#333;
+  font-size:0.9em;
+}
+.card-body .card-subsubtitle {
+  color :#666;
+  font-size:0.8em;
+  text-transform: uppercase; 
+  font-weight:normal;
 }
 
 
