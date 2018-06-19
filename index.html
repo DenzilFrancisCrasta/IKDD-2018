@@ -282,15 +282,16 @@ $("#navbarTogglerDemo01 ul li a[href^='#'], a[href^='#']").on('click', function(
 
    // store hash
    var hash = this.hash;
+   var OFFSET_TOP = 50;
 
    // animate
    $('html, body').animate({
-       scrollTop: $(hash).offset().top
+       scrollTop: $(hash).offset().top - OFFSET_TOP
      }, 700, function(){
 
        // when done, add hash to url
        // (default click behaviour)
-       window.location.hash = hash;
+       //window.location.hash = hash;
      });
 
   return false;
