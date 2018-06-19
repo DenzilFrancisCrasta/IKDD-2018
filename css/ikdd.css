@@ -5,10 +5,11 @@
 .light-border-right {
   border-right: 1px dotted #444;
 }
+
 .muted-link, .muted-link:hover {
-  text-decoration: none;
   outline:none;
 }
+
 
 .subheading {
   font-size:0.9em;
@@ -64,6 +65,7 @@ nav {
 
 #navbarTogglerDemo01 .nav-link.active {
   border-bottom:2px solid #d15608;
+  outline:none;
 }
 
 #navbarTogglerDemo01 .nav-link {
@@ -71,6 +73,7 @@ nav {
   font-size:0.9em;
   font-weight: bold;
   padding: 10px;
+  outline:none;
 }
 
 #about {
@@ -98,8 +101,6 @@ nav {
 }
 
 
-.card {
-}
 .card-img-top {
   display: block;
   width:50%;
